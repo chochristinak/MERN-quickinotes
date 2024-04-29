@@ -1,11 +1,11 @@
 /* CSS Custom Properties */
 :root {
-  --white: #FFFFFF;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --orange: #F67F00;
+  --cottonball: #ffffffe8;
+  --mouse: #d1d0d0;
+  --eraser: #df7b69;
+  --whale: #6fa4c0;
+  --lilac: #e6bdee;
+  --peach: #f0b06c;
   --text-light: #968c84;
   --text-dark: #615954;
 }
@@ -69,9 +69,9 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--tan-1);
+  background-color: var(--lilac);
   color: var(--text-dark);
-  border: .1vmin solid var(--tan-3);
+  border: .1vmin solid var(--eraser);
   border-radius: 1vmin;
   padding: .6vmin;
   text-align: center;
@@ -80,13 +80,13 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
+  background-color: var(--mouse);
+  border: .1vmin solid var(--whale);
   border-radius: 1vmin;
 }
 
 p.error-message {
-  color: var(--orange);
+  color: var(--eraser);
   text-align: center;
 }
 
@@ -106,7 +106,7 @@ label {
 input {
   padding: 1vmin;
   font-size: 2vmin;
-  border: .1vmin solid var(--tan-3);
+  border: .1vmin solid var(--cottonball);
   border-radius: .5vmin;
   color: var(--text-dark);
   background-image: none !important; /* prevent lastpass */
@@ -114,14 +114,14 @@ input {
 }
 
 input:focus {
-  border-color: var(--orange);
+  border-color: var(--whale);
 }
 
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--lilac);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
